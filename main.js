@@ -10,5 +10,5 @@ rl.question("Github Camoo Link: ", function (answer) {
         request(answer)
         i = i+1
         console.log(`Successfully requested. Request Number: ${i}`);
-    }, 2000);
+    }, 1000);
 });
